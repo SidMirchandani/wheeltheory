@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "usernameIndex": {
+      ".read": true,
+      "$username": {
+        ".write": "auth != null"
+      }
+    },
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
